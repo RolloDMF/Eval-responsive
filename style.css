@@ -12,6 +12,13 @@ img{
     animation-iteration-count: 1;
 }
 
+#nom{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* petites annimations (l element arrive par la droite avec une taille de 0 et fini a gauche avec la taille definie dans le css) */
+
 h2{
     animation-duration: 2s;
     animation-name: slideintxt;
@@ -23,8 +30,6 @@ h1{
     animation-name: slideintxt;
     animation-iteration-count: 1;
 }
-
-/* petites annimations (l element arrive par la droite avec une taille de 0 et fini a gauche avec la taille definie dans le css) */
 
 @keyframes slidein {
     from {
