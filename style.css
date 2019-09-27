@@ -7,13 +7,19 @@ img{
     border-radius: 50%;
     border: 5px solid #E4D9FF;
     background-color: #FAFAFF;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: slidein;
     animation-iteration-count: 1;
 }
 
 h2{
     animation-duration: 2s;
+    animation-name: slideintxt;
+    animation-iteration-count: 1;
+}
+
+h1{
+    animation-duration: 1s;
     animation-name: slideintxt;
     animation-iteration-count: 1;
 }
