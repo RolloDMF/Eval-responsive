@@ -67,10 +67,15 @@ h2{
     text-shadow: #E4D9FF 1px 1px 5px;
 }
 
+#autre li ul{
+    padding: 0;
+}
+
 a{
     color: #FAFAFF;
 }
 
+/*Changement de la couleur du hover des lien pour rester en accord avec le theme du CV*/
 a:hover{
     color: #E4D9FF;
 }
@@ -86,3 +91,14 @@ footer{
 footer ul{
     margin: 1em;
 }
+
+/* quelques media query */
+
+@media screen and (max-width: 991px) {
+
+    #autre li ul, #autre li a, #autre li p{
+        text-align: center;
+        display: block;
+    }
+
+  }
