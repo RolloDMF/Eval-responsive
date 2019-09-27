@@ -19,15 +19,15 @@ img{
 
 /* petites annimations (l element arrive par la droite avec une taille de 0 et fini a gauche avec la taille definie dans le css) */
 
-h2{
-    animation-duration: 2s;
-    animation-name: slideintxt;
+h1{
+    animation-duration: 1s;
+    animation-name: slideinh1;
     animation-iteration-count: 1;
 }
 
-h1{
-    animation-duration: 1s;
-    animation-name: slideintxt;
+h2{
+    animation-duration: 2s;
+    animation-name: slideinh2;
     animation-iteration-count: 1;
 }
 
@@ -42,7 +42,18 @@ h1{
     }
 }
 
-@keyframes slideintxt {
+@keyframes slideinh2 {
+    from {
+      margin-left: 100%;
+      font-size: 0;
+    }
+  
+    to {
+      margin-left: 1em;
+    }
+}
+
+@keyframes slideinh1 {
     from {
       margin-left: 100%;
       font-size: 0;
@@ -140,7 +151,7 @@ footer ul{
     margin: 1em;
 }
 
-/* quelques media query */
+/* media query */
 
 @media screen and (max-width: 991px) {
 
