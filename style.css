@@ -18,11 +18,11 @@ h2{
     animation-iteration-count: 1;
 }
 
-/* petite annimation (l element arrive par la droite avec une taille de 0 et fini a gauche avec la taille definie dans le css) */
+/* petites annimations (l element arrive par la droite avec une taille de 0 et fini a gauche avec la taille definie dans le css) */
 
 @keyframes slidein {
     from {
-      margin-left: 50%;
+      margin-left: 100%;
       width: 0%;
     }
   
