@@ -1,7 +1,13 @@
 img{
     width: 30%;
     border-radius: 50%;
+    border: 5px solid #E4D9FF;
+    background-color: #FAFAFF
+}
+
+img:hover{
     border: 5px solid #FAFAFF;
+    background-color: #273469;
 }
 
 li{
@@ -43,11 +49,13 @@ h2{
     background-color: #273469;
     color: #FAFAFF;
     padding: 0.5em 1em;
+    box-shadow: 5px 5px 5px #30343f;
 }
 
 #autre h2{
     background-color: #E4D9FF;
     color: #30343F;
+    box-shadow: 5px 5px 5px #87878a;
 }
 
 #autre h3{
